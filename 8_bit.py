@@ -1,7 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 
 # Create a blank image (width x height)
-img = Image.new("RGB", (300, 40), color=(120, 120, 120))
+# img = Image.new("RGB", (300, 40), color=(120, 120, 120))
+img = Image.new("RGB", (840,480), color=(120, 120, 120))
 draw = ImageDraw.Draw(img)
 
 # Load pixel font (or use default)
@@ -38,5 +39,5 @@ draw.rectangle([170, 15, 175, 25], fill="black")
 draw.text((200, 10), "T9a", font=font, fill=(255, 255, 200))
 
 # Save image
-img.save("topbar_pixel.png")
+img.save("prototype.jpg")
 img.show()
