@@ -27,5 +27,5 @@ def create_grid_image(width=800, height=600, grid_size=50, line_color=(0, 0, 0),
 
 if __name__ == "__main__":
     img = create_grid_image(width=800, height=600, grid_size=50)
-    img.save("grid_image.png")
+    img.save("./helper/grid_image.jpg")
     img.show()
