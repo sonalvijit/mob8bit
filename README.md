@@ -1,4 +1,4 @@
-# mob8bit
+# mob8bit (In development)
 
 ## Reference
 <img src="./reference/2209202502.jpeg">
